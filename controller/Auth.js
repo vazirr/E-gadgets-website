@@ -1,4 +1,4 @@
-const { sanitizeUser } = require("../Serrrr/Common");
+const { sanitizeUser } = require("../Services/Common");
 const { User } = require("../model/User");
 const crypto = require("crypto");
 const jwt = require("jsonwebtoken");

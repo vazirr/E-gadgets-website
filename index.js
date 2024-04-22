@@ -22,7 +22,7 @@ const authRouter = require("./routes/Auth");
 const cartRouter = require("./routes/Cart");
 const ordersRouter = require("./routes/Order");
 const { User } = require("./model/User");
-const { isAuth, sanitizeUser, cookieExtractor } = require("./services/Common");
+const { isAuth, cookieExtractor, sanitizeUser } = require("./Services/Common");
 const path = require("path");
 console.log(process.env);
 
